@@ -1,0 +1,22 @@
+{
+  "name": "cws/payments",
+  "description": "Payments contract for integrating with payment providers",
+  "keywords": [
+    "payments"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Cws\\Payments\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Cws\\Payments\\Providers\\PaymentsServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}
